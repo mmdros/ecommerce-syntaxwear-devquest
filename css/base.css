@@ -1,4 +1,5 @@
 body {
     font-family: var(--fonte-principal);
     color: var(--fonte-cor);
+    background-color: red;
 }

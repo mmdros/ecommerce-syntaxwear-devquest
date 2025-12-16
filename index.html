@@ -3,24 +3,52 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>SyntaxWear</title>
+    <title>SyntaxWear - Tênis e Sneakers Online</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/layout.css" />
 
+    <link rel="stylesheet" href="./css/components/header.css" />
   </head>
   <body>
     <header class="site-header" role="banner">
       <div class="header-inner">
-        <!-- logo (placeholder) -->
-        <div class="logo" aria-hidden="true"></div>
+        <div class="logo" aria-hidden="true">
+          <h1>
+            <a href="/" title="SyntaxWear"><img src="./images/logo/logo.svg" alt="SyntaxWear - Tênis e Sneakers Online"/></a>
+          </h1>
+        </div>
         <!-- navegação principal (estrutura vazia conforme solicitado) -->
-        <nav
-          class="main-nav"
-          role="navigation"
-          aria-label="Navegação principal"
-        ></nav>
+        <nav class="main-nav" role="navigation" aria-label="Navegação principal">
+          <ul>
+            <li><a href="#">Masculino</a></li>
+            <li><a href="#">Feminino</a></li>
+            <li><a href="#">Outlet</a></li>
+          </ul>
+        </nav>
+        <!-- menu completo à direita -->
+        <nav class="secondary-nav" role="navigation" aria-label="Menu secundário">
+          <ul class="secondary-nav-list">
+            <li><a href="#">Nossas lojas</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li>
+              <a href="#" aria-label="Perfil">
+                <img src="./images/icons/user.svg" alt="Perfil"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Ajuda">
+                <img src="./images/icons/help.svg" alt="Ajuda"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Sacola">
+                <img src="./images/icons/bag.svg" alt="Sacola"/>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
 
