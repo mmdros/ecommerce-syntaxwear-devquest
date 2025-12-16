@@ -10,17 +10,26 @@
     <link rel="stylesheet" href="./css/layout.css" />
 
     <link rel="stylesheet" href="./css/components/header.css" />
+    <link rel="stylesheet" href="./css/components/hero.css" />
   </head>
   <body>
     <header class="site-header" role="banner">
       <div class="header-inner">
         <div class="logo" aria-hidden="true">
           <h1>
-            <a href="/" title="SyntaxWear"><img src="./images/logo/logo.svg" alt="SyntaxWear - Tênis e Sneakers Online"/></a>
+            <a href="/" title="SyntaxWear"
+              ><img
+                src="./images/logo/logo.svg"
+                alt="SyntaxWear - Tênis e Sneakers Online"
+            /></a>
           </h1>
         </div>
         <!-- navegação principal (estrutura vazia conforme solicitado) -->
-        <nav class="main-nav" role="navigation" aria-label="Navegação principal">
+        <nav
+          class="main-nav"
+          role="navigation"
+          aria-label="Navegação principal"
+        >
           <ul>
             <li><a href="#">Masculino</a></li>
             <li><a href="#">Feminino</a></li>
@@ -28,23 +37,27 @@
           </ul>
         </nav>
         <!-- menu completo à direita -->
-        <nav class="secondary-nav" role="navigation" aria-label="Menu secundário">
+        <nav
+          class="secondary-nav"
+          role="navigation"
+          aria-label="Menu secundário"
+        >
           <ul class="secondary-nav-list">
             <li><a href="#">Nossas lojas</a></li>
             <li><a href="#">Sobre</a></li>
             <li>
               <a href="#" aria-label="Perfil">
-                <img src="./images/icons/user.svg" alt="Perfil"/>
+                <img src="./images/icons/user.svg" alt="Perfil" />
               </a>
             </li>
             <li>
               <a href="#" aria-label="Ajuda">
-                <img src="./images/icons/help.svg" alt="Ajuda"/>
+                <img src="./images/icons/help.svg" alt="Ajuda" />
               </a>
             </li>
             <li>
               <a href="#" aria-label="Sacola">
-                <img src="./images/icons/bag.svg" alt="Sacola"/>
+                <img src="./images/icons/bag.svg" alt="Sacola" />
               </a>
             </li>
           </ul>
@@ -54,7 +67,18 @@
 
     <main id="main" role="main">
       <!-- Seção hero (estrutura macro vazia) -->
-      <section id="hero" class="hero" aria-label="Seção hero"></section>
+      <section id="hero" class="hero" aria-label="Seção hero">
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <span class="hero-subtitle">Kypton One</span>
+            <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
+            <div class="hero-buttons">
+              <a class="btn btn-outline" href="#">Ver modelos</a>
+              <a class="btn btn-filled" href="#">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Seção de categorias de produto (macro) -->
       <section
