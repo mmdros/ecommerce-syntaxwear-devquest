@@ -1,50 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>ecommerce-syntaxwear</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/theme.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>SyntaxWear</h1>
-      <nav>
-        <ul class="nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Produtos</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="hero">
-      <h2>Bem-vindo à SyntaxWear</h2>
-      <p>Loja de roupas com estilo para desenvolvedores.</p>
-      <img src="images/placeholder.png" alt="Imagem de placeholder" />
-    </section>
-
-    <section class="products">
-      <h3>Produtos em destaque</h3>
-      <div class="product-grid">
-        <!-- cards -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SyntaxWear</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <!-- logo (placeholder) -->
+        <div class="logo" aria-hidden="true"></div>
+        <!-- navegação principal (estrutura vazia conforme solicitado) -->
+        <nav
+          class="main-nav"
+          role="navigation"
+          aria-label="Navegação principal"
+        ></nav>
       </div>
-    </section>
-  </main>
+    </header>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; <span id="year"></span> SyntaxWear</p>
-    </div>
-  </footer>
+    <main id="main" role="main">
+      <!-- Seção hero (estrutura macro vazia) -->
+      <section id="hero" class="hero" aria-label="Seção hero"></section>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
+      <!-- Seção de categorias de produto (macro) -->
+      <section
+        id="categories"
+        class="categories"
+        aria-label="Categorias de produtos"
+      ></section>
+
+      <!-- Grid com produtos em destaque (macro) -->
+      <section
+        id="featured"
+        class="featured-products"
+        aria-label="Produtos em destaque"
+      ></section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">
+        <!-- Informações de contato (estrutura vazia) -->
+        <div class="contact" aria-label="Informações de contato"></div>
+        <!-- Links do rodapé (estrutura vazia) -->
+        <nav
+          class="footer-nav"
+          role="navigation"
+          aria-label="Navegação do rodapé"
+        ></nav>
+      </div>
+    </footer>
+  </body>
 </html>
