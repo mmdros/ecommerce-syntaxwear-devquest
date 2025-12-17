@@ -19,6 +19,8 @@ ul[role='list'], ol[role='list'] {
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Set core root defaults */
@@ -39,6 +41,7 @@ a:not([class]) {
 
 a {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 /* Make images easier to work with */
