@@ -1,9 +1,9 @@
 .header-inner {
   position: fixed;
-  top: 20px;
+  top: 60px;
   left: 50%;
   transform: translate(-50%);
-  width: calc(100% - 40px);
+  width: calc(100% - 20px);
   border-radius: 15px;
   z-index: 999;
   display: flex;
@@ -11,6 +11,7 @@
   align-items: center;
   padding: 0.75rem 1.25rem;
   background-color: #ffffff;
+  max-width: 1320px;
 }
 
 .logo img {
