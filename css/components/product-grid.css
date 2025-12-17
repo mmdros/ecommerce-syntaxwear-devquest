@@ -47,7 +47,7 @@
         "highlight highlight top2 top2"
         "highlight highlight midL midR"
         "bottomL bottomL midL bottomR";
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .card {
@@ -83,5 +83,5 @@
 
 .cta-group {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
 }
