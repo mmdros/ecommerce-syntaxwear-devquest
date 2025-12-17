@@ -137,16 +137,96 @@
     </main>
 
     <footer class="site-footer" role="contentinfo">
-      <div class="footer-inner">
-        <!-- Informações de contato (estrutura vazia) -->
-        <div class="contact" aria-label="Informações de contato"></div>
-        <!-- Links do rodapé (estrutura vazia) -->
-        <nav
-          class="footer-nav"
-          role="navigation"
-          aria-label="Navegação do rodapé"
-        ></nav>
+<div class="footer-inner">
+
+    <!-- Área informativa / utilitária -->
+    <section class="contact" aria-labelledby="footer-contact-title">
+      <h2 id="footer-contact-title" class="visually-hidden">
+        Contato e redes sociais
+      </h2>
+
+      <!-- Newsletter -->
+      <form aria-label="Inscrição para newsletter">
+        <label for="footer-email">Inscreva-se em nosso e-mail</label>
+        <input
+          type="email"
+          id="footer-email"
+          name="email"
+          placeholder="email@email.com"
+          required
+        >
+      </form>
+
+      <!-- Redes sociais -->
+      <div class="social">
+        <h3>Redes sociais</h3>
+        <ul>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="WhatsApp">WhatsApp</a></li>
+          <li><a href="#" aria-label="TikTok">TikTok</a></li>
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+        </ul>
       </div>
-    </footer>
+    </section>
+
+    <!-- Navegação do rodapé -->
+    <nav
+      class="footer-nav"
+      aria-label="Navegação do rodapé"
+    >
+
+      <section class="footer-column">
+        <h3>Masculino</h3>
+        <ul>
+          <li><a href="#">Casual</a></li>
+          <li><a href="#">Esporte</a></li>
+          <li><a href="#">Moderno</a></li>
+          <li><a href="#">Futurista</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-column">
+        <h3>Feminino</h3>
+        <ul>
+          <li><a href="#">Casual</a></li>
+          <li><a href="#">Esporte</a></li>
+          <li><a href="#">Moderno</a></li>
+          <li><a href="#">Futurista</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-column">
+        <h3>Outlet</h3>
+        <ul>
+          <li><a href="#">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-column">
+        <h3>Nossas lojas</h3>
+        <ul>
+          <li><a href="#">Loja física</a></li>
+          <li><a href="#">Loja online</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-column">
+        <h3>Sobre</h3>
+        <ul>
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Missão</a></li>
+        </ul>
+      </section>
+
+    </nav>
+
+  </div>
+
+  <!-- Informações legais -->
+  <div class="footer-bottom">
+    <p>Copyright. All Rights Reserved</p>
+  </div>
+</footer>
   </body>
 </html>
