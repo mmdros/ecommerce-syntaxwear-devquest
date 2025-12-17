@@ -1,0 +1,56 @@
+.highlight {
+    grid-area: highlight;
+    background-color: red;
+    background-image: url(../../images/products/card-imagem.jpg);
+}
+
+.top2 {
+ grid-area: top2;
+    background-color: orange;
+    background-image: url(../../images/products/roxo-verde-grid.jpg);
+
+
+}
+
+.midL {
+ grid-area: midL;
+    background-color: pink;
+    background-image: url(../../images/products/modelo-feminino.jpg);
+
+
+}
+
+.midR {
+ grid-area: midR;
+    background-color: blue;
+    background-image: url(../../images/products/colorido-grid.jpg);
+
+
+}
+
+.bottomL {
+ grid-area: bottomL;
+    background-color: green;
+    background-image: url(../../images/products/preto-azul-grid.jpg);
+    
+
+}
+
+.bottomR {
+ grid-area: bottomR;
+ background-color: yellow;
+    background-image: url(../../images/products/futurista.jpg);
+
+ 
+}
+
+.featured-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,300px);
+    grid-template-areas:
+        "highlight highlight top2 top2"
+        "highlight highlight midL midR"
+        "bottomL bottomL midL bottomR";
+    gap: 10px;
+}
