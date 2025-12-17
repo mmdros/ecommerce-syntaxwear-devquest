@@ -1,5 +1,40 @@
 body {
     font-family: var(--fonte-principal);
     color: var(--fonte-cor);
-    background-color: red;
+}
+
+.btn {
+    font-size: 1.25rem;
+    width: 161px;
+    height: 48px;
+    border-radius: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, border 0.3s;
+    line-height: 24px;
+}
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-outline {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+
+}
+
+.btn-filled {
+    color: #7c3aed;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btn:hover {
+    background-color: #7c3aed;
+    border: none;
+    color: #ffffff;
+    border-color: #7c3aed;
+    
 }
