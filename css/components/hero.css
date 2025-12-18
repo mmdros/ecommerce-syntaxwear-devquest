@@ -35,3 +35,30 @@
     font-weight: 400;
     
 }
+
+@media (max-width: 768px) {
+    .hero {
+        height: 660px;
+        width: ;
+        background: url(../../images/banners/hero-mobile.jpg) no-repeat center center;
+    }
+
+    .hero-overlay {
+        padding: 0;
+    }
+
+    .hero-content .hero-title {
+        font-size: 1.5rem;
+    letter-spacing: 2px;
+
+    }
+
+    .hero-content .hero-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .hero-content {
+        max-width: 330px;
+        margin: 0 auto;
+    }
+}
