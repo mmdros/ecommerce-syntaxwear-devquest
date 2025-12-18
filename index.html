@@ -25,50 +25,48 @@
       <div class="header-inner">
         <div class="logo" aria-hidden="true">
           <h1>
-            <a href="/" title="SyntaxWear"
-              ><img
-                src="./images/logo/logo.svg"
-                alt="SyntaxWear - Tênis e Sneakers Online"
-            /></a>
+            <a href="/" title="SyntaxWear"><img src="./images/logo/logo.svg" alt="SyntaxWear - Tênis e Sneakers Online" /></a>
           </h1>
         </div>
-        <!-- navegação principal (estrutura vazia conforme solicitado) -->
-        <nav
-          class="main-nav"
-          role="navigation"
-          aria-label="Navegação principal"
-        >
-          <ul>
-            <li><a href="#">Masculino</a></li>
-            <li><a href="#">Feminino</a></li>
-            <li><a href="#">Outlet</a></li>
-          </ul>
-        </nav>
-        <!-- menu completo à direita -->
-        <nav
-          class="secondary-nav"
-          role="navigation"
-          aria-label="Menu secundário"
-        >
-          <ul class="secondary-nav-list">
-            <li><a href="#nossas_lojas">Nossas lojas</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li>
-              <a href="#" aria-label="Perfil">
-                <img src="./images/icons/user.svg" alt="Perfil" />
-              </a>
-            </li>
-            <li>
-              <a href="#" aria-label="Ajuda">
-                <img src="./images/icons/help.svg" alt="Ajuda" />
-              </a>
-            </li>
-            <li>
-              <a href="#" aria-label="Sacola">
-                <img src="./images/icons/bag.svg" alt="Sacola" />
-              </a>
-            </li>
-          </ul>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-icon" aria-label="Menu">
+          <img src="./images/icons/hamburguer.svg" alt="Menu Mobile" />
+        </label>
+        
+        <nav class="nav-container">
+          <!-- navegação principal (estrutura vazia conforme solicitado) -->
+
+          <nav class="main-nav" role="navigation" aria-label="Navegação principal">
+            <ul>
+              <li><a href="#">Masculino</a></li>
+              <li><a href="#">Feminino</a></li>
+              <li><a href="#">Outlet</a></li>
+            </ul>
+          </nav>
+          
+          <!-- menu completo à direita -->
+          <nav class="secondary-nav" role="navigation" aria-label="Menu secundário" aria-label="Menu secundário">
+            <ul class="secondary-nav-list">
+              <li><a href="#nossas_lojas">Nossas lojas</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li>
+                <a href="#" aria-label="Perfil">
+                  <img src="./images/icons/user.svg" alt="Perfil" />
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Ajuda">
+                  <img src="./images/icons/help.svg" alt="Ajuda" />
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Sacola">
+                  <img src="./images/icons/bag.svg" alt="Sacola" />
+                </a>
+              </li>
+            </ul>
+          </nav>
         </nav>
       </div>
     </header>
@@ -89,11 +87,7 @@
       </section>
 
       <!-- Seção de categorias de produto (macro) -->
-      <section
-        id="categories"
-        class="categories"
-        aria-label="Categorias de produtos"
-      >
+      <section id="categories" class="categories" aria-label="Categorias de produtos">
         <div class="category-card casual">
           <a href="#" class="category-link">
             <span class="overlay"></span>
@@ -121,11 +115,7 @@
       </section>
 
       <!-- Grid com produtos em destaque (macro) -->
-      <section
-        id="featured"
-        class="featured-products"
-        aria-label="Produtos em destaque"
-      >
+      <section id="featured" class="featured-products" aria-label="Produtos em destaque">
         <div class="card highlight">
           <div class="highlight-content">
             <h3 class="card-title">Krypton One</h3>
@@ -151,40 +141,26 @@
           <!-- Newsletter -->
           <form class="newsletter-form" aria-label="Inscrição para newsletter">
             <label for="footer-email">Inscreva-se em nosso e-mail</label>
-            <input
-              type="email"
-              id="footer-email"
-              name="email"
-              placeholder="email@email.com"
-              required
-            />
+            <input type="email" id="footer-email" name="email" placeholder="email@email.com" required />
           </form>
 
           <!-- Redes sociais -->
           <div class="footer-social">
-           <span>Redes sociais</span>
+            <span>Redes sociais</span>
             <ul class="social-links">
               <ul>
-              <li>
-                <a href="#" aria-label="Instagram"
-                  ><img src="./images/icons/instagram.svg" alt="Instagram"
-                /></a>
-              </li>
-              <li>
-                <a href="#" aria-label="WhatsApp"
-                  ><img src="./images/icons/whatsapp.svg" alt="WhatsApp"
-                /></a>
-              </li>
-              <li>
-                <a href="#" aria-label="TikTok"
-                  ><img src="./images/icons/tiktok.svg" alt="TikTok"
-                /></a>
-              </li>
-              <li>
-                <a href="#" aria-label="Facebook"
-                  ><img src="./images/icons/facebook.svg" alt="Facebook"
-                /></a>
-              </li>
+                <li>
+                  <a href="#" aria-label="Instagram"><img src="./images/icons/instagram.svg" alt="Instagram" /></a>
+                </li>
+                <li>
+                  <a href="#" aria-label="WhatsApp"><img src="./images/icons/whatsapp.svg" alt="WhatsApp" /></a>
+                </li>
+                <li>
+                  <a href="#" aria-label="TikTok"><img src="./images/icons/tiktok.svg" alt="TikTok" /></a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Facebook"><img src="./images/icons/facebook.svg" alt="Facebook" /></a>
+                </li>
               </ul>
             </ul>
           </div>
