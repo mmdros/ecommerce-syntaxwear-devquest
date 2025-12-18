@@ -50,7 +50,7 @@
   background-size: cover;
 }
 
-@media (max-width:500px) {
+@media (max-width:698px) {
   .category-card {
     width: 100%;
   }
