@@ -2,17 +2,17 @@
      https://andy-bell.co.uk/a-modern-css-reset/
 */
 
-/* Box sizing rules */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
-/* Remove default margin */
+
 * {
     margin: 0;
 }
 
-/* Remove list styles on ul, ol elements that have a role attribute */
+
 ul[role='list'], ol[role='list'] {
     list-style: none;
 }
@@ -23,18 +23,18 @@ ul {
     margin: 0;
 }
 
-/* Set core root defaults */
+
 html:focus-within {
     scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
+
 body {
     min-height: 100vh;
     line-height: 1.5;
 }
 
-/* Improve default link behavior for those without a custom class */
+
 a:not([class]) {
     text-decoration-skip-ink: auto;
 }
@@ -44,23 +44,23 @@ a {
     color: #FFFFFF;
 }
 
-/* Make images easier to work with */
+
 img, picture {
     max-width: 100%;
     display: block;
 }
 
-/* Inherit fonts for form elements */
+
 input, button, textarea, select {
     font: inherit;
 }
 
-/* Accessible button cursor */
+
 button, [role="button"] {
     cursor: pointer;
 }
 
-/* Reduce motion for users who prefer it */
+
 @media (prefers-reduced-motion: reduce) {
     html:focus-within {
         scroll-behavior: auto;
