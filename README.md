@@ -6,6 +6,8 @@
 
 O SyntaxWear é um site de e-commerce de tênis e sneakers, desenvolvido como parte do projeto final do curso DevQuest. O objetivo principal do projeto é aplicar os conhecimentos adquiridos em HTML e CSS para criar uma página de vendas de produtos.
 
+Você pode visualizar a aplicação online através do GitHub Pages: [https://mmdros.github.io/ecommerce-syntaxwear-devquest/](https://mmdros.github.io/ecommerce-syntaxwear-devquest/)
+
 ## Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
