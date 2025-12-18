@@ -1,87 +1,111 @@
 .highlight {
-    grid-area: highlight;
-    background-image: url(../../images/products/card-imagem.jpg);
+  grid-area: highlight;
+  background-image: url(../../images/products/card-imagem.jpg);
 }
 
 .top2 {
- grid-area: top2;
-    background-image: url(../../images/products/roxo-verde-grid.jpg);
-
-
+  grid-area: top2;
+  background-image: url(../../images/products/roxo-verde-grid.jpg);
 }
 
 .midL {
- grid-area: midL;
-    background-image: url(../../images/products/modelo-feminino.jpg);
-
-
+  grid-area: midL;
+  background-image: url(../../images/products/modelo-feminino.jpg);
 }
 
 .midR {
- grid-area: midR;
-    background-image: url(../../images/products/colorido-grid.jpg);
-
-
+  grid-area: midR;
+  background-image: url(../../images/products/colorido-grid.jpg);
 }
 
 .bottomL {
- grid-area: bottomL;
+  grid-area: bottomL;
 
-    background-image: url(../../images/products/preto-azul-grid.jpg);
-    
-
+  background-image: url(../../images/products/preto-azul-grid.jpg);
 }
 
 .bottomR {
- grid-area: bottomR;
-    background-image: url(../../images/products/futurista.jpg);
-
- 
+  grid-area: bottomR;
+  background-image: url(../../images/products/futurista.jpg);
 }
 
 .featured-products {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3,300px);
-    grid-template-areas:
-        "highlight highlight top2 top2"
-        "highlight highlight midL midR"
-        "bottomL bottomL midL bottomR";
-    gap: 1.875rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  grid-template-areas:
+    "highlight highlight top2 top2"
+    "highlight highlight midL midR"
+    "bottomL bottomL midL bottomR";
+  gap: 1.875rem;
 }
 
 .card {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 15px;
-    position: relative;
-    overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
 }
 
 .highlight-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .card-title {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: #EDEDED;
-    margin-bottom: 10px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ededed;
+  margin-bottom: 10px;
 }
 
 .card-subtitle {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #EDEDED;
-    margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ededed;
+  margin-bottom: 20px;
 }
 
 .cta-group {
-    display: flex;
-    gap: 0.625rem;
+  display: flex;
+  gap: 0.625rem;
+}
+
+@media (max-width: 768px) {
+  .featured-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "highlight highlight"
+      "top2 top2"
+      "midL midR"
+      "midL bottomR"
+      "bottomL bottomL  ";
+    gap: 0.25rem;
+    max-width: 100%;
+  }
+
+  .highlight {
+    min-height: 500px;
+  }
+
+  .top2,
+  .bottomL {
+    min-height: 190px;
+  }
+
+  .midL {
+    min-height: 370px;
+  }
+
+  .midR,
+  .bottomR {
+    min-height: 180px;
+  }
 }
