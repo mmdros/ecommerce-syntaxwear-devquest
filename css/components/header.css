@@ -43,6 +43,7 @@
 
 .secondary-nav img {
   height: 20px;
+  margin: 0 auto;
 }
 
 .secondary-nav a:hover img {
